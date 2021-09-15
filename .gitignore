@@ -1,2 +1,7 @@
 node_modules/
 static/dist/
+Lib/
+Include/
+Scripts/
+pyvenv.cfg
+__pycache__/

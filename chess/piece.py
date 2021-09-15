@@ -1,3 +1,5 @@
+import chess.board
+
 # Generic piece
 class Piece:
     type = ""

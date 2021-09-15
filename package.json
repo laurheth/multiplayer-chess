@@ -6,17 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "npm run build && python app.py"
+    "start": "npm run build && cd Scripts && activate.bat && cd .. && python app.py"
   },
   "author": "Lauren Hetherington",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.4.3"
-  },
-  "dependencies": {
-    "@types/socket.io": "^3.0.2",
-    "@types/socket.io-client": "^3.0.0",
-    "socket.io": "^4.2.0",
-    "socket.io-client": "^4.2.0"
   }
 }
